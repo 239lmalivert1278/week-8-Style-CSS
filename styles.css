@@ -1,0 +1,43 @@
+.hov {
+    height: 200px;
+    width: 200px; background-color:blue;
+    background-color: blue;
+
+
+}
+ .hov:hover {
+    background-color: red;
+ }
+ .every-all li:nth-child(all) {
+    background-color: blue;
+ }
+ .every-third li:nth-child(3n) {
+    background-color: red;
+
+
+ }
+
+ table {
+    border-collapse: collapse;
+    width: 100%;
+ }
+ th,td {
+    text-align: left;
+    border-bottom: 1px solid blue ;
+
+ }
+
+
+ tr:hover {
+    background-color: gray;
+ }
+ #box-model {
+    padding: 20px;
+    border-style: solid ;
+    border-width: 3px;
+    margin: 30px;
+    background-color: rgb(0, 94, 255);
+ }
+h1, h2 {
+    background-color: black;
+}
